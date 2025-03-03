@@ -1,12 +1,16 @@
-Time complexity :
-For push function - O(1)
-For pop function - O(1)
-For top function - O(1)
-For getMin function - O(1)
-For getMax function - O(1)
-Space complexity :
-For push function - O(n)
-For pop function - O(n)
-For top function - O(n)
-For getMin function - O(n)
-For getMax function - O(n)
+Time Complexity of all functions - O(1)
+Space Complexity of all functions = O(n)
+
+CUSTOM DATA STRUCTURE IMPLEMENTATION :
+The class implements a stack data structure with additional functionality.
+Attributes:
+    stack (deque): The main stack to store elements.
+    max_stack (deque): Stack to keep track of maximum values.
+    min_stack (deque): Stack to keep track of minimum values.
+
+Methods:
+    push(x): Inserts an element into the stack while updating min and max stacks.
+    pop(): Removes the top element from the stack and updates min and max stacks.
+    top(): Returns the top element of the stack.
+    getMin(): Returns the minimum element in the stack.
+    getMax(): Returns the maximum element in the stack.
