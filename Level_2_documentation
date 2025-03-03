@@ -1,0 +1,14 @@
+COMPOSITE DATA STRUCTURE IMPLEMENTATION
+
+This class maintains a collection of intervals and merges overlapping intervals to keep a simplified representation.
+
+Attributes:
+    intervals (list): A list that stores the non-overlapping merged intervals.
+
+Methods:
+    addIntervals(start, end): Adds a new interval and merges overlapping intervals.
+    getIntervals(): Returns the current list of merged intervals.
+
+Time Complexity:
+    - addIntervals: O(n log n) due to sorting and merging.
+    - getIntervals: O(n), as it prints the stored intervals.
