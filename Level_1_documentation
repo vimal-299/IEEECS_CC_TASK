@@ -1,0 +1,12 @@
+Time complexity :
+For push function - O(1)
+For pop function - O(1)
+For top function - O(1)
+For getMin function - O(1)
+For getMax function - O(1)
+Space complexity :
+For push function - O(n)
+For pop function - O(n)
+For top function - O(n)
+For getMin function - O(n)
+For getMax function - O(n)
