@@ -18,7 +18,7 @@ class linked_list : # Creating a doubly linked list
         print(t) 
         return(t)
     
-    def insertion_beginning(self,data):  # Adding an element to the start of the list
+    def insertion_head(self,data):  # Adding an element to the start of the list
         new_node = node(data) # Creating a new node which has the value that we want to append
         if not self.head : # If the list is empty the new value will become the head of the list 
             self.head = new_node
@@ -27,7 +27,7 @@ class linked_list : # Creating a doubly linked list
         self.head.prev = new_node
         self.head = new_node # The new node now acts as head
 
-    def insertion_end(self,data):  # Adding an element to the end of the list
+    def insertion_tail(self,data):  # Adding an element to the end of the list
         new_node = node(data)  # Creating a new node which has the value that we want to append
         if not self.head : 
             self.head = new_node  # If the list is empty the new value will become the head of the list 
