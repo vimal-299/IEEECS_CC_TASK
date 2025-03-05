@@ -1,0 +1,27 @@
+DOUBLY LINKED LISTS 
+The class linked_list creates a doubly linked list with the following functionality:
+
+  1. Node creation - A seperate class named node containing the following attributes :
+    1.(a) data - This stores the value in the node
+    1.(b) next - Points towards the next node
+    1.(c) prev - Points towards the previous node
+
+  2. Length - Calculates the length of the doubly linked list
+     Time complexity - O(n)
+     space complexity - O(1)
+
+  3. Insertion_head - Adds an element to the starting of the list
+     Time complexity - O(1)
+     space complexity - O(1)
+
+  4. Insertion_tail - Adds an element to the end of the list
+     Time complexity - O(n)
+     space complexity - O(1)
+
+  5. traversal_forward - Prints the elements of the list from head to tail
+     Time complexity - O(n)
+     space complexity - O(1)
+
+  6. traversal_backward - Prints the elements of the list from tail to head
+     Time complexity - O(n)
+     space complexity - O(1)
